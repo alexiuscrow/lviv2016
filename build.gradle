@@ -1,0 +1,26 @@
+group 'alexiuscrow.travels'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+def jerseyVersion = '2.23.2'
+
+dependencies {
+    //javax
+    compile "javax.servlet:javax.servlet-api:3.1.0"
+    //jersey
+    compile "org.glassfish.jersey.core:jersey-server:${jerseyVersion}"
+    compile "org.glassfish.jersey.containers:jersey-container-servlet:${jerseyVersion}"
+    //other
+    compile 'joda-time:joda-time:2.9.4'
+    compile 'com.owlike:genson:1.4'
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
