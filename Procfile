@@ -1,1 +1,1 @@
-java -jar webapp-runner.jar lviv2016.war
+web:    java $JAVA_OPTS -jar webapp/target/dependency/jetty-runner.jar --port $PORT webapp/target/*.war
