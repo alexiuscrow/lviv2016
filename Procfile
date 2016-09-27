@@ -1,0 +1,1 @@
+java -jar webapp-runner.jar lviv2016.war
