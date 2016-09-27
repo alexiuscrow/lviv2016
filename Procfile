@@ -1,1 +1,1 @@
-web:    java $JAVA_OPTS -jar webapp/target/dependency/jetty-runner-9.4.0.RC0.jar --port $PORT webapp/target/*.war
+web:    java $JAVA_OPTS -jar libs/jetty-runner-9.4.0.RC0.jar --port $PORT webapp/target/*.war
