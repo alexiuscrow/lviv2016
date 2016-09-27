@@ -1,1 +1,1 @@
-web:    java $JAVA_OPTS -jar libs/jetty-runner-9.4.0.RC0.jar --port $PORT build/libs/lviv2016.war
+web:    java $JAVA_OPTS -jar libs/jetty-runner-9.4.0.RC0.jar --port $PORT target/*.war
