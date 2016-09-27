@@ -6,6 +6,7 @@ apply plugin: 'war'
 
 sourceCompatibility = 1.8
 war.archiveName = 'lviv2016.war'
+war.destinationDir = new File("./target/${war.archiveName}")
 
 repositories {
     mavenCentral()
