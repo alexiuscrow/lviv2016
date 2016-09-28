@@ -1,6 +1,6 @@
 Lviv 2016
 =========
-Some project for test deploying war file to [heroku][1].
+Some gradle project for test deploying war file to [heroku][1].
 
 Guide
 -----
